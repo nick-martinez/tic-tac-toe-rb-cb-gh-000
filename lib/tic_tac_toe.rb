@@ -21,7 +21,6 @@ end # end input_to_index
 
 def move(board, index, token)
   board[index] = token
-  return board
 end # end move
 
 
