@@ -150,7 +150,7 @@ end # End winner(board)
 
 
 def play(board)
-  if (over?(board) != true)
+  while (over?(board) != true)
     turn(board)
   end
 
