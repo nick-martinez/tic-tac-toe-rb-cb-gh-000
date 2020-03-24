@@ -149,9 +149,7 @@ end # End winner(board)
 
 def play(board)
   if (over?(board) != true || won?(board) != true || draw?(board) == true)
-    puts "Please enter 1-9:"
-    input = gets.strip
-    index = input_to_index(input)
+    turn(board)
   end
 
   if (won?(board))
